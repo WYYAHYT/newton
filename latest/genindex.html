@@ -41,7 +41,7 @@
   <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
 <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
-    <script src="_static/documentation_options.js?v=1c471e8e"></script>
+    <script src="_static/documentation_options.js?v=9912e11f"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/clipboard.min.js?v=a7894cd8"></script>
@@ -566,7 +566,7 @@ window.runMermaid = runMermaid;</script>
     <img src="_static/newton-logo-dark.png" class="logo__image only-dark pst-js-only" alt="Newton Physics Logo"/>
   
   
-    <p class="title logo__title">Newton Physics <span style='font-size: 0.8em; color: #888;'>(1.1.0.dev0)</span></p>
+    <p class="title logo__title">Newton Physics <span style='font-size: 0.8em; color: #888;'>(1.2.0.dev0)</span></p>
   
 </a></div>
     
@@ -1937,6 +1937,9 @@ window.runMermaid = runMermaid;</script>
           <a href="api/_generated/newton.sensors.SensorRaycast.html#newton.sensors.SensorRaycast.camera_direction">camera_direction (newton.sensors.SensorRaycast attribute)</a>
         </dt>
         <dt>
+          <a href="api/_generated/newton.Gaussian.html#newton.Gaussian.SortingMode.CAMERA_DISTANCE">CAMERA_DISTANCE (newton.Gaussian.SortingMode attribute)</a>
+        </dt>
+        <dt>
           <a href="api/_generated/newton.sensors.SensorRaycast.html#newton.sensors.SensorRaycast.camera_position">camera_position (newton.sensors.SensorRaycast attribute)</a>
         </dt>
         <dt>
@@ -2309,6 +2312,9 @@ window.runMermaid = runMermaid;</script>
           <a href="api/_generated/newton.Model.html#newton.Model.control">control() (newton.Model method)</a>
         </dt>
         <dt>
+          <a href="api/_generated/newton.sensors.SensorTiledCamera.html#newton.sensors.SensorTiledCamera.Utils.convert_ray_depth_to_forward_depth">convert_ray_depth_to_forward_depth() (newton.sensors.SensorTiledCamera.Utils method)</a>
+        </dt>
+        <dt>
           <a href="api/_generated/newton.GeoType.html#newton.GeoType.CONVEX_MESH">CONVEX_MESH (newton.GeoType attribute)</a>
         </dt>
         <dt>
@@ -2654,8 +2660,13 @@ window.runMermaid = runMermaid;</script>
           </dl>
         </dd>
         <dt>
-          <a href="api/_generated/newton.utils.MeshAdjacency.html#newton.utils.MeshAdjacency.edges">edges (newton.utils.MeshAdjacency attribute)</a>
+          <a href="api/_generated/newton.Mesh.html#newton.Mesh.edges">edges (newton.Mesh property)</a>
         </dt>
+        <dd>
+          <dl>
+            <dt><a href="api/_generated/newton.utils.MeshAdjacency.html#newton.utils.MeshAdjacency.edges">(newton.utils.MeshAdjacency attribute)</a></dt>
+          </dl>
+        </dd>
         <dt>
           <a href="api/_generated/newton.JointTargetMode.html#newton.JointTargetMode.EFFORT">EFFORT (newton.JointTargetMode attribute)</a>
         </dt>
@@ -2728,6 +2739,10 @@ window.runMermaid = runMermaid;</script>
             <dt><a href="api/_generated/newton.ModelBuilder.html#newton.ModelBuilder.equality_constraint_anchor">(newton.ModelBuilder attribute)</a></dt>
           </dl>
         </dd>
+      </dl>
+    </td>
+    <td style="width: 33%; vertical-align: top;">
+      <dl>
         <dt>
           <a href="api/_generated/newton.Model.html#newton.Model.equality_constraint_body1">equality_constraint_body1 (newton.Model attribute)</a>
         </dt>
@@ -2736,10 +2751,6 @@ window.runMermaid = runMermaid;</script>
             <dt><a href="api/_generated/newton.ModelBuilder.html#newton.ModelBuilder.equality_constraint_body1">(newton.ModelBuilder attribute)</a></dt>
           </dl>
         </dd>
-      </dl>
-    </td>
-    <td style="width: 33%; vertical-align: top;">
-      <dl>
         <dt>
           <a href="api/_generated/newton.Model.html#newton.Model.equality_constraint_body2">equality_constraint_body2 (newton.Model attribute)</a>
         </dt>
@@ -3006,6 +3017,9 @@ window.runMermaid = runMermaid;</script>
         </dt>
         <dt>
           <a href="api/_generated/newton.GeoType.html#newton.GeoType.GAUSSIAN">GAUSSIAN (newton.GeoType attribute)</a>
+        </dt>
+        <dt>
+          <a href="api/_generated/newton.Gaussian.html#newton.Gaussian.SortingMode">Gaussian.SortingMode (class in newton)</a>
         </dt>
         <dt>
           <a href="api/_generated/newton.Model.html#newton.Model.gaussians_count">gaussians_count (newton.Model attribute)</a>
@@ -4059,6 +4073,9 @@ window.runMermaid = runMermaid;</script>
           <a href="api/_generated/newton.GeoType.html#newton.GeoType.MESH">MESH (newton.GeoType attribute)</a>
         </dt>
         <dt>
+          <a href="api/_generated/newton.Model.html#newton.Model.mesh_edge_indices">mesh_edge_indices (newton.Model attribute)</a>
+        </dt>
+        <dt>
           <a href="api/_generated/newton.utils.MeshAdjacency.html#newton.utils.MeshAdjacency">MeshAdjacency (class in newton.utils)</a>
         </dt>
         <dt>
@@ -4676,6 +4693,9 @@ window.runMermaid = runMermaid;</script>
     <td style="width: 33%; vertical-align: top;">
       <dl>
         <dt>
+          <a href="api/_generated/newton.Gaussian.html#newton.Gaussian.SortingMode.RAY_HIT_DISTANCE">RAY_HIT_DISTANCE (newton.Gaussian.SortingMode attribute)</a>
+        </dt>
+        <dt>
           <a href="api/_generated/newton.sensors.SensorContact.html#newton.sensors.SensorContact.reading_indices">reading_indices (newton.sensors.SensorContact property)</a>
         </dt>
         <dt>
@@ -5045,6 +5065,14 @@ window.runMermaid = runMermaid;</script>
           <a href="api/_generated/newton.ik.IKObjectiveRotation.html#newton.ik.IKObjectiveRotation.set_target_rotations">set_target_rotations() (newton.ik.IKObjectiveRotation method)</a>
         </dt>
         <dt>
+          <a href="api/_generated/newton.viewer.ViewerBase.html#newton.viewer.ViewerBase.set_visible_worlds">set_visible_worlds() (newton.viewer.ViewerBase method)</a>
+        </dt>
+        <dd>
+          <dl>
+            <dt><a href="api/_generated/newton.viewer.ViewerGL.html#newton.viewer.ViewerGL.set_visible_worlds">(newton.viewer.ViewerGL method)</a></dt>
+          </dl>
+        </dd>
+        <dt>
           <a href="api/_generated/newton.viewer.ViewerBase.html#newton.viewer.ViewerBase.set_world_offsets">set_world_offsets() (newton.viewer.ViewerBase method)</a>
         </dt>
         <dd>
@@ -5135,6 +5163,9 @@ window.runMermaid = runMermaid;</script>
             <dt><a href="api/_generated/newton.ModelBuilder.html#newton.ModelBuilder.shape_count">(newton.ModelBuilder property)</a></dt>
           </dl>
         </dd>
+        <dt>
+          <a href="api/_generated/newton.Model.html#newton.Model.shape_edge_range">shape_edge_range (newton.Model attribute)</a>
+        </dt>
         <dt>
           <a href="api/_generated/newton.Model.html#newton.Model.shape_filter">shape_filter (newton.Model attribute)</a>
         </dt>
@@ -5431,6 +5462,9 @@ window.runMermaid = runMermaid;</script>
         </dt>
         <dt>
           <a href="api/_generated/newton.solvers.SolverXPBD.html#newton.solvers.SolverXPBD">SolverXPBD (class in newton.solvers)</a>
+        </dt>
+        <dt>
+          <a href="api/_generated/newton.Gaussian.html#newton.Gaussian.sorting_mode">sorting_mode (newton.Gaussian property)</a>
         </dt>
         <dt>
           <a href="api/_generated/newton.solvers.SolverKamino.html#newton.solvers.SolverKamino.Config.sparse_dynamics">sparse_dynamics (newton.solvers.SolverKamino.Config attribute)</a>
@@ -6061,6 +6095,9 @@ window.runMermaid = runMermaid;</script>
     </td>
     <td style="width: 33%; vertical-align: top;">
       <dl>
+        <dt>
+          <a href="api/_generated/newton.Gaussian.html#newton.Gaussian.SortingMode.Z_DEPTH">Z_DEPTH (newton.Gaussian.SortingMode attribute)</a>
+        </dt>
       </dl>
     </td>
   </tr>
